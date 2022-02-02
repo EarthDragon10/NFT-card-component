@@ -14,4 +14,10 @@ body {
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   background-color: $main-background-color;
+
+  section {
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 350px;
+  }
 }

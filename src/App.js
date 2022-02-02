@@ -1,8 +1,12 @@
+import React from "react";
+import Card from "./components/Card";
+import "./index.scss";
+
 function App() {
   return (
-    <main>
-      <h1>Prova</h1>
-    </main>
+    <section className="container">
+      <Card />
+    </section>
   );
 }
 

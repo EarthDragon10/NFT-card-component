@@ -1,0 +1,110 @@
+@import "../sass/variables";
+
+.card {
+  background-color: $card-background-color;
+  padding: 24px 24px 32px 24px;
+  margin-top: 24px;
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+
+  img {
+    width: 302px;
+    border-radius: 8px;
+  }
+
+  h3 {
+    margin-top: 24px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  p {
+    margin-top: 24px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #8bacd9;
+  }
+
+  .info-nft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+
+    span img.ethereum-icon {
+      height: 18px;
+      width: 11px;
+    }
+
+    span img.watch-icon {
+      max-height: 16px;
+      max-width: 16px;
+    }
+
+    span img,
+    span p {
+      display: inline-flex;
+    }
+
+    .price-nft p {
+      color: #00fff8;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-left: 6.48px;
+      position: relative;
+      bottom: 2px;
+    }
+
+    .time-nft p {
+      color: #8bacd9;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-left: 6.48px;
+      position: relative;
+      bottom: 2px;
+    }
+  }
+
+  .underline {
+    margin-top: 24px;
+    width: 98%;
+    border-bottom: 1px #2e405a solid;
+  }
+
+  .info-author {
+    display: flex;
+    margin-top: 24px;
+
+    img.avatar-icon {
+      height: 33px;
+      width: 33px;
+      border-radius: 50%;
+      border: 1px solid #ffffff;
+      display: inline;
+    }
+
+    p {
+      display: inline;
+      margin-left: 16px;
+      position: relative;
+      bottom: 18px;
+    }
+  }
+}
