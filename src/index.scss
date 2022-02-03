@@ -17,7 +17,16 @@ body {
 
   section {
     margin: 0 auto;
-    height: 100vh;
+    padding-top: 152px;
+    padding-bottom: 152px;
     max-width: 350px;
+  }
+
+  @media screen and (max-width: 375px) {
+    section {
+      margin: 0 auto;
+      padding-top: 62px;
+      padding-bottom: 62px;
+    }
   }
 }
