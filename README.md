@@ -24,7 +24,7 @@
 
 # General Info
 
-### Link: [nft-card-component]()
+### Link: [nft-card-component](https://nft-card-fictious.netlify.app/)
 
 # Description
 
