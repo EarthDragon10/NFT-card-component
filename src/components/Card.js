@@ -4,13 +4,18 @@ import cardImg from "../assets/image-equilibrium.jpg";
 import avatarImg from "../assets/image-avatar.png";
 import iconEthereum from "../assets/icon-ethereum.svg";
 import iconWatch from "../assets/icon-clock.svg";
+import viewCard from "../assets/icon-view.svg";
 
 const Card = () => {
   return (
     <article className="card">
       <div>
-        <img src={cardImg} alt="equilibrium nft" className="card-img" />
-        <h3>Equilibrium #3429</h3>
+        <div className="box-img">
+          <img src={cardImg} alt="equilibrium nft" />
+          <img src={viewCard} alt="view nft" className="card-img-overlay" />
+        </div>
+
+        <h3 className="title">Equilibrium #3429</h3>
         <p>Our Equilibrium collection promotes balance and calm.</p>
         <div className="info-nft">
           <span className="price-nft">
@@ -30,7 +35,7 @@ const Card = () => {
         <div className="info-author">
           <img src={avatarImg} alt="avatar of author" className="avatar-icon" />
           <p>
-            Creation of <span>Jules Wyvern</span>
+            Creation of <span className="name-author">Jules Wyvern</span>
           </p>
         </div>
       </div>
